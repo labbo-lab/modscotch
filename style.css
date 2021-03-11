@@ -1,0 +1,49 @@
+.codeblock {
+  background-color: #e7b600;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  border-radius: 5px;
+  font-family: sf;
+  font-size: 20px;
+  width: 99%;
+  -webkit-font-smoothing: subpixel-antialiased;
+  vertical-align: middle;
+  margin-right: 10%;
+  image-rendering: crisp-edges;
+}
+
+@font-face {
+  font-family: sf;
+  src: url(sf.ttf);
+}
+
+.codeblock > circle {
+  background-color: white;
+  color: black;
+  display: -webkit-inline-box;
+  font-size: 21px;
+  border-radius: 90px;
+  width: 100px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-left: 10px;
+}
+
+img {
+  text-align: center;
+  float: right;
+  vertical-align: middle;
+  margin: -10px 10px; 
+}
+
+.logo {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+  left: 50%;
+  right: 50%;
+}
